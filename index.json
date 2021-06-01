@@ -1,0 +1,32 @@
+{
+    "type":"MCU",
+    "name":"STC16F",
+    "title": "STC MCU",
+    "description":"STC 8051 MCU",
+    "Core": {
+        "num": 1,
+        "type":"8051",
+        "Freq":24,
+        "DMIPS": 125,
+        "CoreMark": 339
+    },
+    "manufacturer": {
+        "vendor":"STC",
+        "homepage":"https://www.stcmcudata.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STC16F.git"
+    },
+    "version":"1.0.0",
+    "series":["STC16H","STC16G","STC16F","STC16A"],
+    "package":["LQFP176","LQFP144","LQFP100","LQFP64","LQFP176","WLCSP66","UFBGA176"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
